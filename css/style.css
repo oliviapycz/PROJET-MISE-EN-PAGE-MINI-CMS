@@ -1,0 +1,238 @@
+*{
+  /*margin: 0;
+  padding: 0;*/
+}
+#smoothscroll{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+li{
+  list-style-type: none;
+}
+nav{
+  font-size: 18px;
+}
+a{
+  color: #011973;
+}
+a:hover{
+  color : grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+.police{
+  font-family: 'Dosis', sans-serif;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+/*HEADER*/
+#header{
+  border-bottom: 2px solid grey;
+}
+.sign{
+  /*line-height: 70px;*/
+  padding-right: -5px;
+}
+p, h3{
+  font-family: 'Dosis', sans-serif;
+}
+
+.top{
+  right: 0;
+  position: fixed;
+  z-index: 5;
+  text-align: right;
+}
+/*PAGE1*/
+.container1{
+  height: 87vh;
+  background-image: url(../images/fisherman-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.citation{
+  align-items: center;
+}
+h2{
+  font-size: 52px;
+  color: #fff;
+}
+.from-left{
+  line-height: 50vh;
+  animation-name: right;
+  animation-duration: 2s;
+}
+@keyframes left{
+    from {right:1500px;}
+    to {right: 0}
+}
+.from-right{
+  animation-name: left;
+  animation-duration: 2s;
+}
+@keyframes right{
+    from {left:1500px;}
+    to {left:0}
+}
+
+
+/*PAGE2*/
+.container2{
+    background-color: #fff;
+    height: 100vh;
+}
+h3{
+  margin: 0;
+}
+.title-page{
+  width: 450px;
+  border-bottom: 2px solid lightgreen;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.box{
+  box-shadow: 1px 1px 1px 1px #888888;
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+}
+.thumbnail:hover{
+  background-color: lightgrey;
+}
+.see-more-btn{
+  box-shadow: 1px 1px 1px 1px #888888;
+  background-color: lightgreen;
+  border: 3px solid lightgreen;
+  width: 150px;
+  height: 70px;
+}
+.see-more-btn:hover{
+  background-color: #011973;
+  opacity: 0.8;
+}
+.contain-btn{
+  padding-left: 60px;
+  padding-top: 60px;
+}
+/*PAGE3*/
+.container3{
+  height: 100vh;
+  background: url(../images/mountain.jpg)  no-repeat center fixed;
+  background-size: cover;
+}
+
+.tout-savoir-btn{
+  margin-top: 50px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  background-color: lightgreen;
+  border: 3px solid lightgreen;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  font-size: 28px;
+
+}
+.tout-savoir-btn-xs{
+  margin-top: 50px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  background-color: lightgreen;
+  border: 3px solid lightgreen;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 22px;
+}
+
+.tout-savoir-btn:hover{
+
+}
+.baroudeur{
+line-height: 40px;
+font-size: 30px;
+color: black;
+}
+.mini-baroudeur{
+  font-size: 18px;
+  color: black;
+}
+
+/*PAGE4*/
+.container4{
+
+}
+.text-plan{
+  font-size: 20px;
+  padding-top: 30px;
+}
+.img-plan{
+  padding: 3px;
+  box-shadow: 1px 1px 1px 1px #888888;
+}
+.market{
+  margin-bottom: 70px;
+}
+.btn-plan{
+margin-top: 15px;
+color: black;
+border: 1px solid lightgrey;
+box-shadow: 1px 1px 1px 1px #888888;
+}
+.btn-plan:hover{
+  background-color: lightgrey;
+}
+/*FOOTER-CONTACT*/
+#contact{
+  /*height: 70vh;*/
+  background-color: black;
+}
+.follow{
+  line-height: 50px;
+  margin-left: 15px;
+}
+.media{
+  margin-top: 150px;
+  margin-left: 20px;
+}
+fieldset{
+  margin-bottom: 10px;
+}
+/*ESSAI*/
+/*.form_connexion, .form_inscription{
+  width: 40%;
+  z-index: 5;
+  top: 120px;
+  left: 470px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #f88595;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 10px;
+}
+.btn-connexion{
+  background-color: lightgreen;
+}
+.inscription{
+  margin: 10px;
+  height: 40px;
+  background-color: #b2ecf7;
+}
+
+input{
+  margin-bottom: 10px;
+  height: 40px;
+  margin: 10px;
+}
+fieldset{
+  border: 2px solid #fff;
+  padding: 7px;
+}
+.follow{
+  margin-left: 5px;
+}*/

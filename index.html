@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html ng-app="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <title>T.W.I.M.H</title>
+  </head>
+  <body id="smoothscroll">
+
+    <header id="header" class="container-fluid">
+      <div class="row">
+
+        <div class="row col-xs-6 col-lg-2">
+          <a class="col-xs-5 col-lg-4 logo" href="index.html">
+            <i class="fa fa-globe fa-5x " aria-hidden="true"></i>
+          </a>
+          <h1 class="col-xs-6 col-lg-8 police text-center">T.W.I.M.H</h1>
+        </div>
+
+        <h1 class="col-lg-8 visible-lg police text-center">The.World.Is.My.Home</h1>
+
+        <div class="row col-xs-6 col-lg-2 sign text-center">
+          <a ng-click="show-sign-in=true" class="col-lg-6 col-xs-6 police sign-in" href="#">SIGN IN</a>
+          <a ng-click="show-sign-up=true" class="col-lg-6 col-xs-6 police sign-up" href="#">SIGN UP</a>
+        </div>
+
+      </div>
+
+      <nav class="row col-xs-12 col-lg-12 text-center police">
+        <li class="col-lg-3"><a href="#derniers-voyages">Derniers Voyages</a></li>
+        <li class="col-lg-3"><a href="#guide-du-baroudeur">Guide du Baroudeur</a></li>
+        <li class="col-lg-3"><a href="#bons-plans">Bons Plans</a></li>
+        <li class="col-lg-3"><a href="#contact">Contact</a></li>
+      </ul>
+      </nav>
+    </header>
+
+    <main >
+      <!-- page1 -->
+      <article class="container1">
+        <div class="row citation">
+          <h2 class="col-lg-offset-4 col-lg-6 visible-lg from-left text-center police"><strong>"</strong>Travel the World without Barrier</h2>
+          <h2 class="col-lg-offset-1 col-lg-6 visible-lg from-right text-center police">and Make Every City your Own.<strong>"</strong></h2>
+        </div>
+          <div class="">
+            <a href="#header"> <i class="fa fa-angle-up top fa-3x" aria-hidden="true"></i></a>
+        </div>
+
+        <!-- <section>
+          <form ng-show="show-sign-in" class="form_connexion" action="" method="post">
+            <p>SIGN IN</p>
+            <input  required type="text" name="pseudo" value="" placeholder="pseudo">
+
+            <input  required type="password" name="password_connexion" value="" placeholder="password">
+
+            <input class="btn-connexion" type="submit" name="connexion" value="connexion">
+          </form>
+        </section>
+
+        <section>
+          <form ng-show="show-sign-up" class="form_inscription" action="" method="post">
+            <p>SIGN UP</p>
+
+            <input required type="text" name="pseudo" value="" placeholder="pseudo">
+
+            <input  required type="email" name="email" value="" placeholder="email">
+
+            <input  required type="password" name="password" value="" placeholder="password">
+
+            <input  required type="password" name="repassword" value="" placeholder="retape password">
+
+            <input class="inscription" type="submit" name="inscription" value="inscription">
+          </form>
+        </section> -->
+
+      </article>
+
+      <!-- page2 Derniers Voyages -->
+      <article id="derniers-voyages" class="container2">
+        <div class="title-page row">
+          <h3 class="col-lg-12 col-xs-12">Derniers Voyages</h3>
+        </div>
+
+        <section class="row col-lg-offset-1 col-lg-11 range">
+
+            <div class="col-lg-4 col-xs-12">
+              <a href="#"><div class="thumbnail box ">
+                <img src="images/cuba.jpg" class="img-responsive img-thumbnail center-block" alt="cuba">
+                <div class="caption">
+                  <h3>Cuba | 2018</h3>
+                  <p>Amerique du Sud</p>
+                </div>
+              </div></a>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <a href="#"><div class="thumbnail box ">
+                <img src="images/greece.jpeg" class="img-responsive img-thumbnail center-block" alt="greece">
+                <div class="caption">
+                  <h3>Greece | 2017</h3>
+                  <p>Europe</p>
+                </div></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <a href="#"><div class="thumbnail box ">
+                <img src="images/china.jpg" class="img-responsive img-thumbnail center-block" alt="china">
+                <div class="caption">
+                  <h3>China | 2010</h3>
+                  <p>Asie</p>
+                </div>
+              </div></a>
+            </div>
+
+        </section>
+
+        <section class="row col-lg-offset-1 col-lg-11 range">
+          <div class="col-lg-4 col-xs-12">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/portugal.jpeg" class="img-responsive img-thumbnail center-block" alt="portugal">
+              <div class="caption">
+                <h3>Portugal | 2015</h3>
+                <p>Europe</p>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-xs-12 contain-btn">
+            <a href="#"><button class="see-more-btn police" type="button" name="button">SEE MORE</button></a>
+          </div>
+
+          <div class="col-lg-4 col-xs-12 visible-lg">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/birmanie.jpg" class="img-responsive img-thumbnail center-block" alt="birmanie">
+              <div class="caption">
+                <h3>Myanmar | 2014</h3>
+                <p>Asie</p>
+              </div>
+            </div></a>
+          </div>
+        </section>
+
+      </article>
+
+      <!-- page3 Guide du Baroudeur -->
+      <article id="guide-du-baroudeur" class="container3">
+        <section class="row">
+          <div class="col-lg-offset-1 col-lg-11 col-xs-12 title-page">
+            <h3 class="">Guide du Baroudeur</h3>
+        </div>
+        <div class="col-lg-8  col-lg-offset-2 baroudeur-text ">
+          <p class="visible-lg text-center baroudeur police">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p class="visible-xs col-xs-12 mini-baroudeur text-center baroudeur police">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class=" visible-lg col-lg-2  col-lg-offset-5">
+          <a href="#"><button class="tout-savoir-btn police" type="button" name="button">TOUT SAVOIR</button></a
+        </div>
+        <div class=" visible-xs  text-center col-xs-12 ">
+          <a href="#"><button class="tout-savoir-btn-xs police" type="button" name="button">TOUT SAVOIR</button></a>
+        </div>
+        </section>
+      </article>
+
+      <!-- page4 Bons Plans -->
+      <article id="bons-plans" class="container4">
+        <div class="title-page col-lg-offset-1 col-lg-11 col-xs-12 row ">
+          <h3 class="">Bons Plans</h3>
+        </div>
+
+        <section class="row ">
+          <div class="col-lg-offset-1 col-lg-10 col-xs-offset-1 col-xs-11 box-plan row">
+            <img class="col-lg-4 col-xs-offset-1 col-xs-10 img-responsive  center-block img-plan"  src="images/food.jpg" alt="">
+            <p class="col-lg-8 col-xs-12 text-center text-plan police">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+            <a href="#"><button class="btn-plan police"type="button" name="button">more food</button></a> </p>
+
+          </div>
+        </section>
+        <section class="row market">
+          <div class="col-lg-offset-1 col-lg-10 col-xs-offset-1 col-xs-11 box-plan row ">
+            <p class="col-lg-8 col-xs-12 text-center text-plan police">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+            <a href="#"><button class="btn-plan police" type="button" name="button">more market</button></a></p>
+
+            <img class="col-lg-4 col-xs-offset-1 col-xs-10 img-responsive center-block img-plan"  src="images/market.jpg" alt="">
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer id="contact"class="row">
+      <h3 class="col-lg-12 col-xs-12 follow">Follow Us | Contact Us</h3>
+      <div class="row col-lg-5 col-xs-12 media">
+        <i class="col-lg-3 col-xs-3 fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+        <i class="col-lg-3 col-xs-3 fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+        <i class="col-lg-3 col-xs-3 fa fa-youtube-square fa-3x" aria-hidden="true"></i>
+        <i class="col-lg-3 col-xs-3 fa fa-tumblr-square fa-3x" aria-hidden="true"></i>
+
+      </div>
+      <fieldset class="row col-lg-6 col-xs-12 text-center">
+        <legend>Contact Us !</legend>
+        <form class="row" action="index.html" method="post">
+          <input class="text-center" type="text" name="name" value="" placeholder="your name">
+          <input class="text-center" type="email" name="email" value="" placeholder="your email">
+          <textarea class="col-xs-12" name="text" rows="8" cols="80" placeholder="your message"></textarea>
+          <input class="col-xs-offset-3 col-xs-6" type="submit" name="" value="SEND">
+        </form>
+      </fieldset>
+
+
+
+    </footer>
+    <script type="text/javascript">
+      // $('.sign-in').on('click', function(){
+      //   $(".form_connexion").css("display", "flex")
+      // });
+      //
+      // $('.sign-up').on('click', function(){
+      //   $(".form_inscription").css("display", "flex")
+      // });
+    </script>
+  </body>
+</html>
