@@ -108,13 +108,13 @@ h3{
 .see-more-btn{
   box-shadow: 1px 1px 1px 1px #888888;
   background-color: lightgreen;
-  border: 3px solid lightgreen;
+  border: 10px solid lightgreen;
   width: 150px;
   height: 70px;
 }
 .see-more-btn:hover{
-  background-color: #011973;
-  opacity: 0.8;
+  background-color: #f88595;
+  transition: 0.4;
 }
 .contain-btn{
   padding-left: 60px;
@@ -185,6 +185,7 @@ box-shadow: 1px 1px 1px 1px #888888;
 }
 .btn-plan:hover{
   background-color: lightgrey;
+  color: #f88595;
 }
 /*FOOTER-CONTACT*/
 #contact{
@@ -236,3 +237,87 @@ fieldset{
 .follow{
   margin-left: 5px;
 }*/
+
+
+/*signin-page*/
+.signin-page{
+  height: 87vh;
+  background-image: url(../images/fisherman-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vertical-form-sign-in{
+  margin-top: 100px;
+}
+.vertical-form-sign-up{
+  margin-top: 60px;
+}
+.color-page{
+  color: #f88595;
+}
+.form_connexion, .form_inscription{
+  width: 40%;
+  opacity: 0.9;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 10px;
+}
+.btn-connexion{
+  background-color: #f88595;
+}
+link-signup{
+  margin: 10px;
+  height: 40px;
+  background-color: #b2ecf7;
+}
+button{
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+}
+.inscription{
+  margin: 10px;
+  height: 40px;
+  background-color: #b2ecf7;
+}
+input.ng-invalid-required {
+    background-color: grey;
+}
+input.ng-valid-required {
+    background-color: lightgreen;
+}
+input{
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  height: 40px;
+  margin: 10px;
+}
+textarea{
+  margin-bottom: 10px;
+  height: 70px;
+  margin: 10px;
+}
+/*derniers voyages*/
+
+@keyframes drop{
+    from {bottom:2500px;}
+    to {bottom:0}
+}
+.sec1{
+  animation-name: drop;
+  animation-duration: 2.5s;
+  animation-delay: 1s;
+}
+.sec2{
+  animation-name: drop;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+.sec3{
+  animation-name: drop;
+  animation-duration: 1.5s;
+}

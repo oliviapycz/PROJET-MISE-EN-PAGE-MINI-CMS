@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <title>T.W.I.M.H</title>
+  </head>
+  <body id="smoothscroll">
+
+    <header id="header" class="container-fluid">
+      <div class="row">
+
+        <div class="row col-xs-6 col-lg-2">
+          <a class="col-xs-5 col-lg-4 logo" href="index.html">
+            <i class="fa fa-globe fa-5x " aria-hidden="true"></i>
+          </a>
+          <h1 class="col-xs-6 col-lg-8 police text-center">T.W.I.M.H</h1>
+        </div>
+
+        <h1 class="col-lg-8 visible-lg police text-center">The.World.Is.My.Home</h1>
+
+        <div class="row col-xs-6 col-lg-2 sign text-center">
+          <a class="col-lg-6 col-xs-6 police sign-in " href="signin.html">SIGN IN</a>
+          <a class="col-lg-6 col-xs-6 police sign-up color-page" href="signup.html">SIGN UP</a>
+        </div>
+
+      </div>
+
+      <nav class="row col-xs-12 col-lg-12 text-center police">
+        <ul>
+          <li class="col-lg-3"><a href="#derniers-voyages">Derniers Voyages</a></li>
+          <li class="col-lg-3"><a href="#guide-du-baroudeur">Guide du Baroudeur</a></li>
+          <li class="col-lg-3"><a href="#bons-plans">Bons Plans</a></li>
+          <li class="col-lg-3"><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="row signin-page">
+      <div class="col-lg-offset-1 col-lg-10 vertical-form-sign-up">
+        <form  class="form_inscription" action="model.php" method="post">
+          <legend class="police text-center">SIGN UP </legend>
+
+          <input ng-model="pseudoInscription" required type="text" name="pseudo" value="" placeholder="pseudo">
+
+          <input ng-model="myMailInscription" required type="email" name="email" value="" placeholder="email">
+
+          <input ng-model="myPassInscription" required type="password" name="password" value="" placeholder="password">
+
+          <input ng-model="myRePassInscription" required type="password" name="repassword" value="" placeholder="retape password">
+
+          <input class="btn-connexion" type="submit" name="inscription" value="inscription">
+        </form>
+      </div>
+
+    </main>
+  </footer>
+
+</body>
+</html>

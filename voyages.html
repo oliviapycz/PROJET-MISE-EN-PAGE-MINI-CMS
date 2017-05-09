@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html ng-app="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <title>T.W.I.M.H</title>
+  </head>
+  <body id="smoothscroll">
+
+    <header id="header" class="container-fluid">
+      <div class="row">
+
+        <div class="row col-xs-6 col-lg-2">
+          <a class="col-xs-5 col-lg-4 logo" href="index.html">
+            <i class="fa fa-globe fa-5x " aria-hidden="true"></i>
+          </a>
+          <h1 class="col-xs-6 col-lg-8 police text-center">T.W.I.M.H</h1>
+        </div>
+
+        <h1 class="col-lg-8 visible-lg police text-center">The.World.Is.My.Home</h1>
+
+        <div class="row col-xs-6 col-lg-2 sign text-center">
+          <a ng-click="show-sign-in=true" class="col-lg-6 col-xs-6 police sign-in" href="signin.html">SIGN IN</a>
+          <a ng-click="show-sign-up=true" class="col-lg-6 col-xs-6 police sign-up" href="signup.html">SIGN UP</a>
+        </div>
+
+      </div>
+
+      <nav class="row col-xs-12 col-lg-12 text-center police">
+        <li class="col-lg-3 "><a class="color-page" href="#derniers-voyages">Derniers Voyages</a></li>
+        <li class="col-lg-3"><a href="#guide-du-baroudeur">Guide du Baroudeur</a></li>
+        <li class="col-lg-3"><a href="#bons-plans">Bons Plans</a></li>
+        <li class="col-lg-3"><a href="index.html#contact">Contact</a></li>
+      </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article id="derniers-voyages" class="container2">
+        <div class="title-page row">
+          <h3 class="col-lg-12 col-xs-12 ">Derniers Voyages</h3>
+        </div>
+
+        <section class="sec1 row col-lg-offset-1 col-lg-11 range">
+
+            <div class="col-lg-4 col-xs-12">
+              <a href="#"><div class="thumbnail box ">
+                <img src="images/cuba.jpg" class="img-responsive img-thumbnail center-block" alt="cuba">
+                <div class="caption">
+                  <h3>Cuba | 2018</h3>
+                  <p>South America</p>
+                </div>
+              </div></a>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <a href="#"><div class="thumbnail box ">
+                <img src="images/greece.jpeg" class="img-responsive img-thumbnail center-block" alt="greece">
+                <div class="caption">
+                  <h3>Greece | 2017</h3>
+                  <p>Europe</p>
+                </div></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <a href="#"><div class="thumbnail box ">
+                <img src="images/china.jpg" class="img-responsive img-thumbnail center-block" alt="china">
+                <div class="caption">
+                  <h3>China | 2010</h3>
+                  <p>Asia</p>
+                </div>
+              </div></a>
+            </div>
+
+        </section>
+
+        <section class="sec2 row col-lg-offset-1 col-lg-11 range">
+          <div class="col-lg-4 col-xs-12">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/portugal.jpeg" class="img-responsive img-thumbnail center-block" alt="portugal">
+              <div class="caption">
+                <h3>Portugal | 2015</h3>
+                <p>Europe</p>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-xs-12">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/india.jpeg" class="img-responsive img-thumbnail center-block" alt="india">
+              <div class="caption">
+                <h3>India | 2012</h3>
+                <p>Asia</p>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-xs-12 visible-lg">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/birmanie.jpg" class="img-responsive img-thumbnail center-block" alt="birmanie">
+              <div class="caption">
+                <h3>Myanmar | 2014</h3>
+                <p>Asia</p>
+              </div>
+            </div></a>
+          </div>
+        </section>
+
+        <section class="sec3 row col-lg-offset-1 col-lg-11 range">
+          <div class="col-lg-4 col-xs-12">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/moscow.jpg" class="img-responsive img-thumbnail center-block" alt="russia">
+              <div class="caption">
+                <h3>Russia | 2013</h3>
+                <p>Europe</p>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 col-xs-12">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/nepal.jpg" class="img-responsive img-thumbnail center-block" alt="nepal">
+              <div class="caption">
+                <h3>Nepal | 2009</h3>
+                <p>Asia</p>
+              </div></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-xs-12 visible-lg">
+            <a href="#"><div class="thumbnail box ">
+              <img src="images/peru.jpg" class="img-responsive img-thumbnail center-block" alt="peru">
+              <div class="caption">
+                <h3>Peru | 2011</h3>
+                <p>South America</p>
+              </div>
+            </div></a>
+          </div>
+        </section>
+
+      </article>
+    </main>
+
+
+
+  </body>
+</html>

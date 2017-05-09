@@ -24,8 +24,8 @@
         <h1 class="col-lg-8 visible-lg police text-center">The.World.Is.My.Home</h1>
 
         <div class="row col-xs-6 col-lg-2 sign text-center">
-          <a ng-click="show-sign-in=true" class="col-lg-6 col-xs-6 police sign-in" href="#">SIGN IN</a>
-          <a ng-click="show-sign-up=true" class="col-lg-6 col-xs-6 police sign-up" href="#">SIGN UP</a>
+          <a ng-click="show-sign-in=true" class="col-lg-6 col-xs-6 police sign-in" href="signin.html">SIGN IN</a>
+          <a ng-click="show-sign-up=true" class="col-lg-6 col-xs-6 police sign-up" href="signup.html">SIGN UP</a>
         </div>
 
       </div>
@@ -129,7 +129,7 @@
           </div>
 
           <div class="col-lg-4 col-xs-12 contain-btn">
-            <a href="#"><button class="see-more-btn police" type="button" name="button">SEE MORE</button></a>
+            <a href="voyages.html"><button class="see-more-btn police" type="button" name="button">SEE MORE</button></a>
           </div>
 
           <div class="col-lg-4 col-xs-12 visible-lg">
@@ -199,12 +199,15 @@
 
       </div>
       <fieldset class="row col-lg-6 col-xs-12 text-center">
-        <legend>Contact Us !</legend>
-        <form class="row" action="index.html" method="post">
-          <input class="text-center" type="text" name="name" value="" placeholder="your name">
-          <input class="text-center" type="email" name="email" value="" placeholder="your email">
-          <textarea class="col-xs-12" name="text" rows="8" cols="80" placeholder="your message"></textarea>
-          <input class="col-xs-offset-3 col-xs-6" type="submit" name="" value="SEND">
+        <form class="row form_connexion" action="index.html" method="post">
+          <legend class="police text-center">CONTACT US </legend>
+          <input ng-model="myMail" required type="email" name="email_connexion" value="" placeholder="your email">
+
+          <input ng-model="firstNameInscription" required type="text" name="firstname" value="" placeholder="your name">
+
+          <textarea name="message" rows="8" cols="80"placeholder="your message"></textarea>
+
+          <input class="btn-connexion" type="submit" name="connexion" value="SEND">
         </form>
       </fieldset>
 
